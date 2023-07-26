@@ -3,6 +3,6 @@ im.import <- function(im) {
   fname <- ls[grep(im, ls)]
   fpath <- system.file("images", fname, package="imageRy")
   r <- rast(fpath)
-  plot(r)
+  im.plotRGB(r)
   return(r)
 }
