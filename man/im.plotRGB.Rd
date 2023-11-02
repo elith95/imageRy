@@ -24,5 +24,8 @@ Duccio Rocchini, Elisa Thouverai
 https://github.com/ducciorocchini/imageRy/
 }
 \examples{
+\dontrun{
 GL15 <- im.import("greenland.2015.tif")
 im.plotRGB(GL15,1,2,3)
+}
+}
