@@ -29,5 +29,8 @@ Ludovico Chieffallo, Elisa Thouverai, Duccio rocchini
 https://github.com/ducciorocchini/imageRy/
 }
 \examples{
+\dontrun{
 GL15 <- im.import("greenland.2015.tif")
 im.pca(GL15) # will use defaults value for the other two arguments.
+}
+}
